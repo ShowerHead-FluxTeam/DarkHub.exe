@@ -1,0 +1,21 @@
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\bin\Release\Dark Hub.exe.config
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\bin\Release\Dark Hub.exe
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\bin\Release\Dark Hub.pdb
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\bin\Release\Newtonsoft.Json.xml
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark Hub.csprojAssemblyReference.cache
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\InjectionWindow.g.cs
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\MainWindow.g.cs
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\App.g.cs
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark Hub_MarkupCompile.cache
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark Hub_MarkupCompile.lref
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\InjectionWindow.baml
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\MainWindow.baml
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark Hub.g.resources
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark_Hub.Properties.Resources.resources
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark Hub.csproj.GenerateResource.cache
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark Hub.csproj.CoreCompileInputs.cache
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark Hub.csproj.Fody.CopyLocal.cache
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark Hub.csproj.CopyComplete
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark Hub.exe
+C:\Users\Shower\Downloads\Dark Hub\Dark Hub\Dark Hub\obj\Release\Dark Hub.pdb

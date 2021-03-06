@@ -1,0 +1,21 @@
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\bin\Debug\Dark Hub.exe.config
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\bin\Debug\Dark Hub.exe
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\bin\Debug\Dark Hub.pdb
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark Hub.csprojAssemblyReference.cache
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\MainWindow.g.cs
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\App.g.cs
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark Hub_MarkupCompile.cache
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark Hub_MarkupCompile.lref
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\MainWindow.baml
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark Hub.g.resources
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark_Hub.Properties.Resources.resources
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark Hub.csproj.GenerateResource.cache
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark Hub.csproj.CoreCompileInputs.cache
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark Hub.csproj.Fody.CopyLocal.cache
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark Hub.csproj.CopyComplete
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark Hub.exe
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\Dark Hub.pdb
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\InjectionWindow.g.cs
+C:\Users\Jack\source\repos\Dark Hub\Dark Hub\obj\Debug\InjectionWindow.baml

@@ -12,6 +12,7 @@ using System.Management;
 using System.Globalization;
 using System.Threading;
 using System.IO.Pipes;
+using System.Runtime.InteropServices;
 
 namespace Dark_Hub
 {
@@ -24,6 +25,7 @@ namespace Dark_Hub
         {
             InitializeComponent();
             grid.Opacity = 0;
+
 
             if (!(HttpGet("https://ksapi.xyz/DarkHub/Verify.php?HardwareID=" + this.HWID) != this.HWID))
             {
@@ -129,15 +131,55 @@ namespace Dark_Hub
             }
 
             Storyboard s = (Storyboard)TryFindResource("loading");
-            await s.start();
+            await s.start();    
+        }
+        [DllImport("kernel32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+        public static extern bool WaitNamedPipe(string PipeName, int Timeout);
+        public static string getPipeName()
+        {
+            Process[] processesByName = Process.GetProcessesByName("RobloxPlayerBeta");
+            return (processesByName.Length < 1) ? string.Empty : string.Format("stopskiddingmypipe{0}", processesByName[0].Id);
         }
 
         private async void doInjection(object sender, RoutedEventArgs e)
         {
-            setStatus("Downloading Files...");
+
+            setStatus("Updating...");
+
             if (await Functions.downloadFiles())
             {
-                await Task.Delay(500);
+                await Task.Delay(200);
+
+                setStatus("Checking Files...");
+
+                if (Process.GetProcessesByName("RobloxPlayerBeta").Length > 1)
+                {
+                    MessageBox.Show("Uh oh! Looks like there is more than one instance of ROBLOX open.\r\nThis means one is running in the background!\r\nPlease open task manager and kill it before reinjection.");
+                    setStatus("Awaiting Injection");
+                    return;
+                }
+
+                if (!File.Exists(System.Windows.Forms.Application.StartupPath + "/FluxusTeamAPI.dll"))
+                {
+                    MessageBox.Show("DLL is not found. Please disable your anti virus and reopen Dark Hub.exe");
+                    System.Diagnostics.Process.GetCurrentProcess().Kill();
+                    return;
+                }
+
+                if (!File.Exists(System.Windows.Forms.Application.StartupPath + "/DACInject.exe"))
+                {
+                    MessageBox.Show("DACInject is not found. Please disable your anti virus and reopen Dark Hub.exe");
+                    System.Diagnostics.Process.GetCurrentProcess().Kill();
+                    return;
+                }
+
+                if (!File.Exists(System.Windows.Forms.Application.StartupPath + "/Inject.bat"))
+                {
+                    MessageBox.Show("Inject.bat is not found. Please disable your anti virus and reopen Dark Hub.exe");
+                    System.Diagnostics.Process.GetCurrentProcess().Kill();
+                    return;
+                }
+
                 if (Process.GetProcessesByName("RobloxPlayerBeta").Length < 1)
                 {
                     setStatus("Roblox isnt open!");
@@ -145,12 +187,12 @@ namespace Dark_Hub
                     setStatus("Awaiting Injection");
                     return;
                 }
+
                 Process.Start("Inject.bat");
 
                 await Task.Delay(100);
                 setStatus("Done! Injecting...");
-            }
-
+            }  
         }
 
         public string HWID = Base64Encode(Environment.UserName + long.Parse(new ManagementObject("win32_logicaldisk.deviceid=\"c:\"")["VolumeSerialNumber"].ToString(), NumberStyles.HexNumber).ToString());
